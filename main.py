@@ -1,6 +1,6 @@
 from youtube_statistics import YTstats
 
-API_KEY = "AIzaSyD9ogIvv86eNJWKbweDDnos1YZ1ZkFByW8"
+API_KEY = "" #there might be a reset
 channel_id = "@JazzAcademy"
 
 yt = YTstats(API_KEY, channel_id)
