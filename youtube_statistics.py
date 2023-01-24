@@ -40,7 +40,7 @@ class YTstats:
     def get_single_video_data(self, video_id, part):
         url = f'https://www.googleapis.com/youtube/v3/videos?part={part}&id={video_id}&key={self.api_key}'
         json_url = requests.get(url)
-        data = json.dumps(json_url.text)
+        data = json.loads(json_url.text)
         try:
             data = data['items'][0][part]
         except:
@@ -90,12 +90,12 @@ class YTstats:
             print ('data is none')
             return 
         
-        fused_data = {self.channel_id: {'channel statistics'= self.channel_stats, 'video_data'= self.video_data}}
+        fused_data = {self.channel_id:{'channel_statistics': self.channel_stats, 'video_data': self.video_data}}
         
-        self.channel_title = 'JazzAcademy'
+        self.channel_title = self.video_data.popitem()[1].get('channelTitle', self.channel_id)
         self.channel_title = self.channel_title.replace(" ", "_").lower()
         file_name = self.channel_title + '.json'
         with open (file_name, 'w') as f:
-            json.dump(self.channel_stats, f, indent=4)
+            json.dump(fused_data, f, indent=4)
         
         print ('file dumped')
