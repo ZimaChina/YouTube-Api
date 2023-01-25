@@ -15,7 +15,7 @@ pip install tqdm (for the Progressbar)
 https://developers.google.com/youtube/v3/getting-started
 https://console.developers.google.com/
 
-**Well need an API key in order to make the requests. 
+**Well need an API key in order to make the requests.** 
 
 So follow the next steps:
 
