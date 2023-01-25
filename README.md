@@ -15,15 +15,15 @@ pip install tqdm (for the Progressbar)
 https://developers.google.com/youtube/v3/getting-started
 https://console.developers.google.com/
 
-**Well need an API key in oreder to make the requests. 
+** Well need an API key in oreder to make the requests. 
 
 So follow the next steps:
 
-*1-Go to the second link and create an account in case you dont have one. 
-*2-Go to API and Services and enable a new one. Itll give you a list with different APIs that you can use.
-*3-Choose the Youtube Data API v3 and enable it.
-*4-Right next to the Google Cloud Icon, youll find the buttom to create a new project, name it.
-*5-Once created, selcet it and obtain the authorization credentials. Save the token. 
+* 1-Go to the second link and create an account in case you dont have one. 
+* 2-Go to API and Services and enable a new one. Itll give you a list with different APIs that you can use.
+* 3-Choose the Youtube Data API v3 and enable it.
+* 4-Right next to the Google Cloud Icon, youll find the buttom to create a new project, name it.
+* 5-Once created, selcet it and obtain the authorization credentials. Save the token. 
 
 You can check if the API is enabled, in the  Enable APIs page, if you select the API (youtube data v3) it should say its enabled.  
 
