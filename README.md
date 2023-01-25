@@ -12,8 +12,8 @@ pip install tqdm (for the Progressbar)
 *Use the main.py file from this repo, in order to execute the program. 
 
 ## API KEY
-https://developers.google.com/youtube/v3/getting-started
-https://console.developers.google.com/
+
+* https://console.developers.google.com/
 
 **Well need an API key in order to make the requests.** 
 
@@ -29,6 +29,9 @@ You can check if the API is enabled, in the  Enable APIs page, if you select the
 
 PS: If you are having troubles with the channel id, when copying it with the @. Find the alphanumeric one in the source code, it worked for me.
 
+
+For Further information, visit:
+* https://developers.google.com/youtube/v3/getting-started
 
 
 
