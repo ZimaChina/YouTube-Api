@@ -6,8 +6,8 @@ Props to @Patrickloeber youtube tutorial, it gave me the main base on which this
 
 ## Requirements
 
-pip install requests (for GET requests)
-pip install tqdm (for the Progressbar)
+* pip install requests (for GET requests)
+* pip install tqdm (for the Progressbar)
 
 *Use the main.py file from this repo, in order to execute the program. 
 
