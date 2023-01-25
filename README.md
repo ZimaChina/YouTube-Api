@@ -1,17 +1,17 @@
-#Youtube Statistics
+# Youtube Statistics
 
 A script to extract statistics from youtube channels. As the title says, it uses the YouTube Data API. 
 In this case, I briefly used it to extract statistics like Subscribers, Likes, Dates and View Counts. But it gives other information too.
 Props to @Patrickloeber youtube tutorial, it gave me the main base on which this project is based on. 
 
-##Requirements
+## Requirements
 
 pip install requests (for GET requests)
 pip install tqdm (for the Progressbar)
 
 *Use the main.py file from this repo, in order to execute the program. 
 
-##API KEY
+## API KEY
 https://developers.google.com/youtube/v3/getting-started
 https://console.developers.google.com/
 
