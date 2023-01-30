@@ -1,5 +1,4 @@
 # Youtube Statistics
-
 A script to extract statistics from youtube channels. As the title says, it uses the YouTube Data API. 
 In this case, I briefly used it to extract statistics like Subscribers, Likes, Dates and View Counts. But it gives other information too.
 Props to @Patrickloeber youtube tutorial, it gave me the main base on which this project is based on. 
